@@ -128,7 +128,7 @@ int main()
         std::cin >> x >> y;
         v2[x-1][y-1] = turn;
       }
-      else if(turn == aiNumber && luot !=1) simpleAI(v2,first, aiNumber);
+      else if(turn == aiNumber) simpleAI(v2,first, aiNumber);
       inBang(v2);
       if(turn == 1) turn++;
       else turn--;
